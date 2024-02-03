@@ -55,13 +55,6 @@
 
 
 
-###  What are the 3 main encryption techniques used by the SSH?
-- Symmetrical encryption
-- Asymmetrical encryption
-- Hashing
-
-
-
 <details>
 <summary>Frequently asked questions about `ssh`</summary>
 
