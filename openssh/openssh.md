@@ -64,16 +64,27 @@
 
 <details>
 <summary>Frequently asked questions about `ssh`</summary>
-<pre>$ This dropdown contains<br>a code block!</pre>
-<ul><li>What is SSH used for?</li>
-<li>What port does SSH run on?</li>
-<li>How can we access a Linux Machine via the Windows command prompt using SSH?</li>
-<li>How can we create public-private keys using SSH?</li>
-<li>What are the three major encryption techniques used by SSH?</li>
+
+<ol>
+<li>What is SSH used for?</li><p>SSH is used to securely connect to a remote system or server. It can be used to transfer data between two connected systems.</p>
+<li>What port does SSH run on?</li><p>22</p>
+<li>How can we access a Linux Machine via the Windows command prompt using SSH?</li><pre>ssh user_name@host(IP/Domaimn_name)</pre>
+
+<li>How can we create public-private keys using SSH?</li><pre>ssh-keygen</pre>
+<li>What are the three major encryption techniques used by SSH?
+<li>Symmetrical encryption</li><li>Asymmetrical encryption</li><li>Hashing</li>
+</li>
 <li>How do I use SSH to connect to a remote server in Linux?</li>
+<p>Replace `username` with your actual username and `remote_server_ip` with the IP address or domain of the remote server.</p>
+<pre>ssh username@remote_server_ip</pre>
+
 <li>What is the SSH command for connecting to a server with a specific port?</li>
+<pre>ssh -p 2222 username@remote_server_ip</pre>
+
 </li>How can I use SSH to transfer files between my local machine and a remote server?</li>
+<pre>scp local_file.txt username@remote_server_ip:/path/to/destination/</pre>
+<p>Using SCP for file transfer. This command securely copies the local file to the specified destination on the remote server. Adjust the file paths and names accordingly.</p>
 
-</ul>
-
+</ol>
+<pre>$ This dropdown contains<br>a code block!</pre>
 </details>
